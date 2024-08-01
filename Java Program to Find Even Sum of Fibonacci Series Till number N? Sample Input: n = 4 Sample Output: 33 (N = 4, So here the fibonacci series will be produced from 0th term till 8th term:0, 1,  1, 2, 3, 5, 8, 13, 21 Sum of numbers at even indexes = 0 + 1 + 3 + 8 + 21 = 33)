@@ -1,0 +1,17 @@
+public class EvenSumFibonacci {
+    public static void main(String[] args) {
+        int n = 4;
+        int sum = 0;
+        int a = 0;
+        int b = 1;
+        while (b <= n) {
+            if (b % 2 == 0) {
+                sum += b;
+            }
+            int next = a + b;
+            a = b;
+            b = next;
+        }        
+        System.out.println("Sum of even Fibonacci numbers up to " + n + " is: " + sum);
+    }
+}
