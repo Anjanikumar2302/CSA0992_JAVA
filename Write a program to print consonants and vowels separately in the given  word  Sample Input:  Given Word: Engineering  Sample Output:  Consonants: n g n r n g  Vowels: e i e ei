@@ -1,4 +1,5 @@
-public class CharacterClassification {
+import java.io.*;
+class vandc{
     public static void main(String[] args) {
         String name = "engineering"; 
         int len = name.length();
